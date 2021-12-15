@@ -14,7 +14,7 @@ namespace poke {
         uint64_t m_time;
         std::string m_content; //消息
     public:
-        LogEvent(){};
+        LogEvent();
     };
 
     //日志器
