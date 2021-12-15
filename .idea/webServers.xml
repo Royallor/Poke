@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5dd87f6-bb06-400b-84a4-0e5fbc0a931d" name="wohoo">
+        <fileTransfer rootFolder="/home" accessType="SFTP" host="wohoo.xyz" port="22" sshConfigId="03a3913e-e368-4827-aa61-7aff5f4ae0f8" sshConfig="root@wohoo.xyz:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
