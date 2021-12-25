@@ -55,6 +55,12 @@ build CMakeFiles/Poke.dir/main.cpp.obj: CXX_COMPILER__Poke_Debug F$:/Git/Poke/ma
   OBJECT_DIR = CMakeFiles\Poke.dir
   OBJECT_FILE_DIR = CMakeFiles\Poke.dir
 
+build CMakeFiles/Poke.dir/src/log.cc.obj: CXX_COMPILER__Poke_Debug F$:/Git/Poke/src/log.cc || cmake_object_order_depends_target_Poke
+  DEP_FILE = CMakeFiles\Poke.dir\src\log.cc.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Poke.dir
+  OBJECT_FILE_DIR = CMakeFiles\Poke.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Poke
@@ -63,7 +69,7 @@ build CMakeFiles/Poke.dir/main.cpp.obj: CXX_COMPILER__Poke_Debug F$:/Git/Poke/ma
 #############################################
 # Link the executable Poke.exe
 
-build Poke.exe: CXX_EXECUTABLE_LINKER__Poke_Debug CMakeFiles/Poke.dir/main.cpp.obj
+build Poke.exe: CXX_EXECUTABLE_LINKER__Poke_Debug CMakeFiles/Poke.dir/main.cpp.obj CMakeFiles/Poke.dir/src/log.cc.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Poke.dir

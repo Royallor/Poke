@@ -3,4 +3,4 @@ project(Poke)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Poke src/log.h main.cpp)
+add_executable(Poke src/log.h main.cpp src/log.cc)
