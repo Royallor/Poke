@@ -3,8 +3,8 @@
 
 #include <stdlib.h>
 //#include <hiredis_cluster/hiredis.h>
-#include <hiredis-vip/hircluster.h>
-#include <hiredis-vip/adapters/libevent.h>
+#include <hiredis_cluster/hircluster.h>
+#include <hiredis_cluster/adapters/libevent.h>
 #include <sys/time.h>
 #include <string>
 #include <memory>
